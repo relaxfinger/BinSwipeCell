@@ -66,7 +66,6 @@
 		0494788924DE9551000314F5 = {
 			isa = PBXGroup;
 			children = (
-				049478AE24DE9585000314F5 /* SWTableViewCell */,
 				0494789424DE9551000314F5 /* BinSwipeCell */,
 				0494789324DE9551000314F5 /* Products */,
 				049478C124DE973E000314F5 /* Frameworks */,
@@ -84,6 +83,7 @@
 		0494789424DE9551000314F5 /* BinSwipeCell */ = {
 			isa = PBXGroup;
 			children = (
+				049478AE24DE9585000314F5 /* SWTableViewCell */,
 				0494789524DE9551000314F5 /* AppDelegate.h */,
 				0494789624DE9551000314F5 /* AppDelegate.m */,
 				0494789824DE9551000314F5 /* SceneDelegate.h */,
@@ -115,8 +115,7 @@
 				049478B924DE9585000314F5 /* SWUtilityButtonView.h */,
 				049478B324DE9585000314F5 /* SWUtilityButtonView.m */,
 			);
-			name = SWTableViewCell;
-			path = BinSwipeCell/SWTableViewCell;
+			path = SWTableViewCell;
 			sourceTree = "<group>";
 		};
 		049478C124DE973E000314F5 /* Frameworks */ = {
