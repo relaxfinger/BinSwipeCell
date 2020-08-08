@@ -76,6 +76,16 @@
     cell.leftUtilityButtons = [self buttons];
     cell.leftMargin = Margin;
     cell.rightMargin = Margin;
+    
+    //为右边侧滑加入圆角功能 实际上找出最后一个按钮 然后为按钮加个圆角就能达到效果
+    if (indexPath.row == 0) {
+        UIView *cornerView = cell.rightUtilityButtons.lastObject;
+        if (cornerView) {
+            cornerView.layer.cornerRadius = 10;
+            cornerView.layer.masksToBounds = YES;
+        }
+    }
+    
     return cell;
 }
 
