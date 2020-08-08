@@ -7,48 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041375B524DEAFE700C5645A /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375AA24DEAFE700C5645A /* SWCellScrollView.m */; };
+		041375B624DEAFE700C5645A /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375AD24DEAFE700C5645A /* SWUtilityButtonView.m */; };
+		041375B724DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375AF24DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.m */; };
+		041375B824DEAFE700C5645A /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375B024DEAFE700C5645A /* SWLongPressGestureRecognizer.m */; };
+		041375B924DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375B124DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.m */; };
+		041375BA24DEAFE700C5645A /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 041375B424DEAFE700C5645A /* SWTableViewCell.m */; };
 		0494789724DE9551000314F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494789624DE9551000314F5 /* AppDelegate.m */; };
-		0494789A24DE9551000314F5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494789924DE9551000314F5 /* SceneDelegate.m */; };
 		0494789D24DE9551000314F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494789C24DE9551000314F5 /* ViewController.m */; };
-		049478A024DE9551000314F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494789E24DE9551000314F5 /* Main.storyboard */; };
 		049478A224DE9556000314F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049478A124DE9556000314F5 /* Assets.xcassets */; };
 		049478A524DE9556000314F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049478A324DE9556000314F5 /* LaunchScreen.storyboard */; };
 		049478A824DE9556000314F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478A724DE9556000314F5 /* main.m */; };
-		049478BB24DE9585000314F5 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478B024DE9585000314F5 /* SWCellScrollView.m */; };
-		049478BC24DE9585000314F5 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478B324DE9585000314F5 /* SWUtilityButtonView.m */; };
-		049478BD24DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478B524DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.m */; };
-		049478BE24DE9585000314F5 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478B624DE9585000314F5 /* SWLongPressGestureRecognizer.m */; };
-		049478BF24DE9585000314F5 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478B724DE9585000314F5 /* NSMutableArray+SWUtilityButtons.m */; };
-		049478C024DE9585000314F5 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 049478BA24DE9585000314F5 /* SWTableViewCell.m */; };
 		049478C324DE973E000314F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049478C224DE973E000314F5 /* UIKit.framework */; };
+		BB5267B500194FDD0EB3583B /* Pods_BinSwipeCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4231AFD9878062F23AAD2D5 /* Pods_BinSwipeCell.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041375A924DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		041375AA24DEAFE700C5645A /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		041375AB24DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		041375AC24DEAFE700C5645A /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		041375AD24DEAFE700C5645A /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		041375AE24DEAFE700C5645A /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		041375AF24DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		041375B024DEAFE700C5645A /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		041375B124DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		041375B224DEAFE700C5645A /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		041375B324DEAFE700C5645A /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		041375B424DEAFE700C5645A /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
 		0494789224DE9551000314F5 /* BinSwipeCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinSwipeCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0494789524DE9551000314F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0494789624DE9551000314F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0494789824DE9551000314F5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		0494789924DE9551000314F5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		0494789B24DE9551000314F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0494789C24DE9551000314F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0494789F24DE9551000314F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049478A124DE9556000314F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049478A424DE9556000314F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049478A624DE9556000314F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049478A724DE9556000314F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		049478AF24DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
-		049478B024DE9585000314F5 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
-		049478B124DE9585000314F5 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
-		049478B224DE9585000314F5 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
-		049478B324DE9585000314F5 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
-		049478B424DE9585000314F5 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
-		049478B524DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
-		049478B624DE9585000314F5 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
-		049478B724DE9585000314F5 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
-		049478B824DE9585000314F5 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
-		049478B924DE9585000314F5 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
-		049478BA24DE9585000314F5 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
 		049478C224DE973E000314F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E2D9C1AD6D7692FCCD512B9 /* Pods-BinSwipeCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinSwipeCell.release.xcconfig"; path = "Target Support Files/Pods-BinSwipeCell/Pods-BinSwipeCell.release.xcconfig"; sourceTree = "<group>"; };
+		7E86458E9EFEB390334FC083 /* Pods-BinSwipeCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinSwipeCell.debug.xcconfig"; path = "Target Support Files/Pods-BinSwipeCell/Pods-BinSwipeCell.debug.xcconfig"; sourceTree = "<group>"; };
+		A4231AFD9878062F23AAD2D5 /* Pods_BinSwipeCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinSwipeCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,18 +56,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				049478C324DE973E000314F5 /* UIKit.framework in Frameworks */,
+				BB5267B500194FDD0EB3583B /* Pods_BinSwipeCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041375A724DEAFE700C5645A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				041375A824DEAFE700C5645A /* SWTableViewCell */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		041375A824DEAFE700C5645A /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				041375AB24DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.h */,
+				041375B124DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.m */,
+				041375B224DEAFE700C5645A /* SWCellScrollView.h */,
+				041375AA24DEAFE700C5645A /* SWCellScrollView.m */,
+				041375AC24DEAFE700C5645A /* SWLongPressGestureRecognizer.h */,
+				041375B024DEAFE700C5645A /* SWLongPressGestureRecognizer.m */,
+				041375AE24DEAFE700C5645A /* SWTableViewCell.h */,
+				041375B424DEAFE700C5645A /* SWTableViewCell.m */,
+				041375A924DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.h */,
+				041375AF24DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.m */,
+				041375B324DEAFE700C5645A /* SWUtilityButtonView.h */,
+				041375AD24DEAFE700C5645A /* SWUtilityButtonView.m */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
 		0494788924DE9551000314F5 = {
 			isa = PBXGroup;
 			children = (
+				041375A724DEAFE700C5645A /* Classes */,
 				0494789424DE9551000314F5 /* BinSwipeCell */,
 				0494789324DE9551000314F5 /* Products */,
 				049478C124DE973E000314F5 /* Frameworks */,
+				E1366B4B7817B279A6E1111A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,14 +112,10 @@
 		0494789424DE9551000314F5 /* BinSwipeCell */ = {
 			isa = PBXGroup;
 			children = (
-				049478AE24DE9585000314F5 /* SWTableViewCell */,
 				0494789524DE9551000314F5 /* AppDelegate.h */,
 				0494789624DE9551000314F5 /* AppDelegate.m */,
-				0494789824DE9551000314F5 /* SceneDelegate.h */,
-				0494789924DE9551000314F5 /* SceneDelegate.m */,
 				0494789B24DE9551000314F5 /* ViewController.h */,
 				0494789C24DE9551000314F5 /* ViewController.m */,
-				0494789E24DE9551000314F5 /* Main.storyboard */,
 				049478A124DE9556000314F5 /* Assets.xcassets */,
 				049478A324DE9556000314F5 /* LaunchScreen.storyboard */,
 				049478A624DE9556000314F5 /* Info.plist */,
@@ -99,31 +124,22 @@
 			path = BinSwipeCell;
 			sourceTree = "<group>";
 		};
-		049478AE24DE9585000314F5 /* SWTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				049478B124DE9585000314F5 /* NSMutableArray+SWUtilityButtons.h */,
-				049478B724DE9585000314F5 /* NSMutableArray+SWUtilityButtons.m */,
-				049478B824DE9585000314F5 /* SWCellScrollView.h */,
-				049478B024DE9585000314F5 /* SWCellScrollView.m */,
-				049478B224DE9585000314F5 /* SWLongPressGestureRecognizer.h */,
-				049478B624DE9585000314F5 /* SWLongPressGestureRecognizer.m */,
-				049478B424DE9585000314F5 /* SWTableViewCell.h */,
-				049478BA24DE9585000314F5 /* SWTableViewCell.m */,
-				049478AF24DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.h */,
-				049478B524DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.m */,
-				049478B924DE9585000314F5 /* SWUtilityButtonView.h */,
-				049478B324DE9585000314F5 /* SWUtilityButtonView.m */,
-			);
-			path = SWTableViewCell;
-			sourceTree = "<group>";
-		};
 		049478C124DE973E000314F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				049478C224DE973E000314F5 /* UIKit.framework */,
+				A4231AFD9878062F23AAD2D5 /* Pods_BinSwipeCell.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1366B4B7817B279A6E1111A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E86458E9EFEB390334FC083 /* Pods-BinSwipeCell.debug.xcconfig */,
+				0E2D9C1AD6D7692FCCD512B9 /* Pods-BinSwipeCell.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 049478AB24DE9556000314F5 /* Build configuration list for PBXNativeTarget "BinSwipeCell" */;
 			buildPhases = (
+				2840DFC96E3A3B44F7513C90 /* [CP] Check Pods Manifest.lock */,
 				0494788E24DE9551000314F5 /* Sources */,
 				0494788F24DE9551000314F5 /* Frameworks */,
 				0494789024DE9551000314F5 /* Resources */,
@@ -185,11 +202,35 @@
 			files = (
 				049478A524DE9556000314F5 /* LaunchScreen.storyboard in Resources */,
 				049478A224DE9556000314F5 /* Assets.xcassets in Resources */,
-				049478A024DE9551000314F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2840DFC96E3A3B44F7513C90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinSwipeCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0494788E24DE9551000314F5 /* Sources */ = {
@@ -197,29 +238,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0494789D24DE9551000314F5 /* ViewController.m in Sources */,
-				049478C024DE9585000314F5 /* SWTableViewCell.m in Sources */,
-				049478BD24DE9585000314F5 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
-				049478BC24DE9585000314F5 /* SWUtilityButtonView.m in Sources */,
+				041375BA24DEAFE700C5645A /* SWTableViewCell.m in Sources */,
+				041375B724DEAFE700C5645A /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				041375B624DEAFE700C5645A /* SWUtilityButtonView.m in Sources */,
 				0494789724DE9551000314F5 /* AppDelegate.m in Sources */,
-				049478BB24DE9585000314F5 /* SWCellScrollView.m in Sources */,
+				041375B524DEAFE700C5645A /* SWCellScrollView.m in Sources */,
 				049478A824DE9556000314F5 /* main.m in Sources */,
-				0494789A24DE9551000314F5 /* SceneDelegate.m in Sources */,
-				049478BE24DE9585000314F5 /* SWLongPressGestureRecognizer.m in Sources */,
-				049478BF24DE9585000314F5 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				041375B824DEAFE700C5645A /* SWLongPressGestureRecognizer.m in Sources */,
+				041375B924DEAFE700C5645A /* NSMutableArray+SWUtilityButtons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0494789E24DE9551000314F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0494789F24DE9551000314F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049478A324DE9556000314F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,11 +375,13 @@
 		};
 		049478AC24DE9556000314F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E86458E9EFEB390334FC083 /* Pods-BinSwipeCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV2T255J4A;
 				INFOPLIST_FILE = BinSwipeCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,11 +394,13 @@
 		};
 		049478AD24DE9556000314F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2D9C1AD6D7692FCCD512B9 /* Pods-BinSwipeCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV2T255J4A;
 				INFOPLIST_FILE = BinSwipeCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
