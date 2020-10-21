@@ -2,14 +2,14 @@ Pod::Spec.new do |spec|
   #工程名称
   spec.name             = "BinSwipeCell"
   #版本号 spec.source中引用了该信息作为github上release的版本号
-  spec.version          = "1.0.1"
+  spec.version          = "1.0.2"
 
   #简单描述
-  spec.summary          = "为SWTableViewCell 添加了左右间距功能"
+  spec.summary          = "为SWTableViewCell 添加了左右间距功能 适配了iOS14"
   #详细描述
   spec.description      = <<-DESC
                         - 项目源于SWTableViewCell.
-                        - 为SWTableViewCell 添加了左右间距功能.
+                        - 为SWTableViewCell 添加了左右间距功能 适配了iOS14.
                         DESC
 
   #与项目相关的首页

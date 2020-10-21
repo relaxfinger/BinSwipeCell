@@ -89,6 +89,10 @@ static NSString * const kTableViewCellContentView = @"UITableViewCellContentView
 
 - (void)initializer
 {
+    
+    //iOS 14 contentView变成了懒加载 调用使其创建
+    UIView *ccontentview = self.contentView;
+    
     layoutUpdating = NO;
     
     _leftMargin = 0;//default leftMargin
