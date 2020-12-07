@@ -91,7 +91,7 @@ static NSString * const kTableViewCellContentView = @"UITableViewCellContentView
 {
     
     //iOS 14 contentView变成了懒加载 调用使其创建
-    UIView *ccontentview = self.contentView;
+    self.contentView.backgroundColor = UIColor.whiteColor;
     
     layoutUpdating = NO;
     
